@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Poppins&family=Raleway:wght@300;400&display=swap');
+
+:root {
+    --main-color: #0F1111;
+    --foooter-color: #37475a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    border: border-box;
+    /*border-box will keep everything in the  allocated height/width*/
+}
+
+header {
+    height: 12vh;
+    background: var(--main-color);
+    color: white;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #F3F3F3;
+    position: relative;
+    z-index: 3;
+    
+}
+
+footer {
+    height: 20vh;
+    color: white;
+    position: relative;
+    z-index: 1;
+    margin-top: 3vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.logo1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo1 img {
+    height: 7vh;
+    width: 15vh;
+    padding: 0 25px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    width: 80vh;
+    height: 5vh;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover {
+    border: 2px solid #FEBD68;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 6vh;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    height: 5vh;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    height: 5vh;
+}
+
+.search-icon {
+    width: 6vh;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    align-items: center;
+    background-color: #FEBD68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: var(--main-color);
+}
+
+.cart i {
+    font-size: 4vh;
+}
+
+.cart {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 4.5vh;
+    background-color: #222F3D;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.panel i {
+    font-size: 3.2vh;
+}
+
+.panel-options p {
+    display: inline;
+    height: 100%;
+    margin-left: 1.5vw;
+    font-weight: 540;
+}
+
+.panel-special {
+    margin-left: 75vh;
+}
+
+
+.main-image {
+    background-image: url('../static/hero.jpg');
+    height: 350px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.main-message {
+    height: 5vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 5vh;
+    width: 80%;
+}
+
+.main-message a{
+    color:#007185;
+}
+
+.shopping-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+
+.box{
+    height:100%;
+    width:23%;
+    margin-top: 15px;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+
+.box-img{
+    height:50vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #007185;
+}
+
+.back{
+    background-color: var(--foooter-color);
+    color: white;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.back i{
+    margin-left: 0.5vw;
+}
+
+.footer-2{
+    background-color: #222F3D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-2 ul a{
+    display: block;
+    font-size: 0.8rem;
+    color: #dddddd;
+    margin-top: 5px;
+}
+
+.footer-2 ul {
+    margin: 1rem;
+} 
+
+.footer-3{
+    background-color: #222F3E;
+    border-top: 0.5px solid white;
+    height:15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("../static/logo.png");
+    background-size: cover;
+    height:8vh;
+    width:15vh;
+}
